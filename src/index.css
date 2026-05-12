@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design tokens ─────────────────────────────────────────────────────── */
+:root {
+  --green:        #1B5C2E;
+  --green-dark:   #133F20;
+  --green-light:  #2A7A40;
+  --cream:        #F5F0E6;
+  --cream-dark:   #EDE7D9;
+  --gold:         #C9A84C;
+  --gold-light:   #E2C97E;
+  --purple:       #4B2D6E;
+  --charcoal:     #1A1A1A;
+  --mid-gray:     #6B7280;
+  --light-gray:   #E5E1D8;
+  --white:        #FFFFFF;
+
+  --nav-height:       72px;
+  --top-bar-height:   36px;
+}
+
+/* ─── Base resets ────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: 'DM Sans', Helvetica, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  margin: 0;
+  padding: 0;
+}
+
+/* ─── Typography ─────────────────────────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+h5, h6 { font-family: 'DM Sans', Helvetica, sans-serif; font-weight: 600; margin: 0; }
+
+.serif   { font-family: 'Cormorant Garamond', Georgia, serif; }
+.display { font-family: 'Playfair Display', Georgia, serif; }
+
+/* ─── Selection ──────────────────────────────────────────────────────────── */
+::selection { background-color: var(--green); color: var(--white); }
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  { background: var(--light-gray); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--mid-gray); }
+
+/* ─── Links ──────────────────────────────────────────────────────────────── */
+a { color: inherit; text-decoration: none; }
+
+/* ─── Container ──────────────────────────────────────────────────────────── */
+.container-site {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+@media (min-width: 768px)  { .container-site { padding-inline: 2.5rem; } }
+@media (min-width: 1280px) { .container-site { padding-inline: 3rem;   } }
+
+/* ─── Live dot pulse ─────────────────────────────────────────────────────── */
+@keyframes live-pulse {
+  0%, 100% { opacity: 1;   }
+  50%       { opacity: 0.4; }
+}
+.live-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E53935;
+  animation: live-pulse 1.4s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+/* ─── Page entry animation ───────────────────────────────────────────────── */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+.page-enter { animation: fade-in 0.35s ease forwards; }
+
+/* ─── Slide down ─────────────────────────────────────────────────────────── */
+@keyframes slide-down {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+.animate-slide-down { animation: slide-down 0.25s ease forwards; }
+
+/* ─── Divider label ──────────────────────────────────────────────────────── */
+.divider-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mid-gray);
+}
+.divider-label::before,
+.divider-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--light-gray);
+}

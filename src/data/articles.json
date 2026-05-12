@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a001",
+    "slug": "alcaraz-medvedev-five-set-thriller",
+    "category": "match-report",
+    "categoryLabel": "Match Report",
+    "title": "Alcaraz Survives Medvedev Five-Set Thriller to Reach Semi-Finals",
+    "subtitle": "The Spaniard dug deep in a pulsating encounter lasting three hours and forty-two minutes on Centre Court",
+    "excerpt": "Carlos Alcaraz produced some of the most extraordinary tennis of his career as he recovered from a set down to defeat Daniil Medvedev in a captivating quarter-final.",
+    "body": "Carlos Alcaraz produced some of the most extraordinary tennis of his career on Tuesday afternoon, recovering from a set down to defeat Daniil Medvedev 4-6, 7-5, 6-3, 4-6, 7-5 in a captivating quarter-final that left the Centre Court crowd breathless.\n\nThe world number three showed his champion's temperament when it mattered most, saving three match points in the fourth set before finding another gear in the decider to advance to his third successive Wimbledon semi-final.\n\n\"I knew it was going to be incredibly tough today,\" Alcaraz said in his on-court interview. \"Daniil is one of the best players in the world on any surface, and on grass he has improved so much. I'm just really happy with how I fought.\"\n\nMedvedev, who appeared to have the match in hand at 5-3 up in the fifth, unravelled in the most dramatic fashion as Alcaraz reeled off four consecutive games to seal victory.",
+    "author": {
+      "name": "James Whitmore",
+      "role": "Senior Tennis Correspondent"
+    },
+    "publishedAt": "2025-07-08T18:30:00Z",
+    "readTime": 6,
+    "featured": true,
+    "imageAlt": "Carlos Alcaraz celebrating on Centre Court",
+    "imagePlaceholderColor": "#1B5C2E",
+    "tags": ["alcaraz", "medvedev", "quarter-final", "centre-court"]
+  },
+  {
+    "id": "a002",
+    "slug": "djokovic-rune-tactical-masterclass",
+    "category": "analysis",
+    "categoryLabel": "Analysis",
+    "title": "How Djokovic Dismantled Rune's Game Plan in Four Sets",
+    "subtitle": "A tactical breakdown of the chess match that unfolded on No. 1 Court",
+    "excerpt": "Novak Djokovic's victory over Holger Rune was as much a triumph of tactical intelligence as it was of physical excellence. We break down the key adjustments that proved decisive.",
+    "body": "There was a moment in the third set, with Holger Rune leading 3-1, when it looked as though the Dane had finally cracked the Djokovic code. The return game was working. The forehand was landing deep. The crowd sensed an upset.\n\nThen Djokovic did what Djokovic does. He adjusted. Quietly, methodically, without fuss.",
+    "author": {
+      "name": "Sarah Chen",
+      "role": "Tactical Analyst"
+    },
+    "publishedAt": "2025-07-08T16:00:00Z",
+    "readTime": 8,
+    "featured": true,
+    "imageAlt": "Novak Djokovic in action on No. 1 Court",
+    "imagePlaceholderColor": "#133F20",
+    "tags": ["djokovic", "rune", "tactics", "analysis"]
+  },
+  {
+    "id": "a003",
+    "slug": "sinner-supreme-clinical-display",
+    "category": "match-report",
+    "categoryLabel": "Match Report",
+    "title": "Sinner's Clinical Display Against Paul Signals Semi-Final Intent",
+    "subtitle": "World number one drops just nine games as he marches into the last four",
+    "excerpt": "Jannik Sinner was utterly imperious in his 6-3, 6-4, 6-2 destruction of Tommy Paul, a performance that underlined why the Italian is the heavy favourite to claim his first Wimbledon title.",
+    "body": "If there were any doubts about Jannik Sinner's readiness to challenge for the Wimbledon title, the world number one emphatically dispelled them with a masterful performance against Tommy Paul.",
+    "author": {
+      "name": "James Whitmore",
+      "role": "Senior Tennis Correspondent"
+    },
+    "publishedAt": "2025-07-08T14:45:00Z",
+    "readTime": 5,
+    "featured": false,
+    "imageAlt": "Jannik Sinner serving on No. 2 Court",
+    "imagePlaceholderColor": "#4B2D6E",
+    "tags": ["sinner", "paul", "quarter-final"]
+  },
+  {
+    "id": "a004",
+    "slug": "rybakina-gauff-three-set-contest",
+    "category": "match-report",
+    "categoryLabel": "Match Report",
+    "title": "Rybakina Outlasts Gauff in Absorbing Three-Set Battle",
+    "subtitle": "The Kazakh's booming serve proved the difference in a high-quality contest on No. 1 Court",
+    "excerpt": "Elena Rybakina's formidable serving and sharp volleying were enough to see off the spirited challenge of Coco Gauff, ending the American's hopes of a first Wimbledon title.",
+    "body": "Elena Rybakina booked her place in the Wimbledon semi-finals with a 6-4, 6-7(4), 6-3 victory over Coco Gauff in a match that ebbed and flowed beautifully before the Kazakh's superior grass-court credentials proved decisive.",
+    "author": {
+      "name": "Priya Nair",
+      "role": "Women's Tennis Correspondent"
+    },
+    "publishedAt": "2025-07-08T17:15:00Z",
+    "readTime": 5,
+    "featured": false,
+    "imageAlt": "Elena Rybakina celebrating her victory",
+    "imagePlaceholderColor": "#C9A84C",
+    "tags": ["rybakina", "gauff", "women's", "quarter-final"]
+  },
+  {
+    "id": "a005",
+    "slug": "order-of-play-day-nine",
+    "category": "schedule",
+    "categoryLabel": "Schedule",
+    "title": "Order of Play: Day Nine — All You Need to Know",
+    "subtitle": "Everything scheduled for Wednesday at The All England Club",
+    "excerpt": "Wednesday brings the conclusion of the quarter-finals, with Sabalenka, Keys, Zverev and Shelton all set to contest spots in the last four.",
+    "body": "Wednesday's order of play promises another feast of high-quality tennis at The All England Club, with the final two quarter-finals of the Championships completing the semi-final line-up.",
+    "author": {
+      "name": "Editorial Desk",
+      "role": "WimbledonWatch"
+    },
+    "publishedAt": "2025-07-09T08:00:00Z",
+    "readTime": 3,
+    "featured": false,
+    "imageAlt": "The All England Club courts",
+    "imagePlaceholderColor": "#1B5C2E",
+    "tags": ["schedule", "order-of-play", "day-nine"]
+  },
+  {
+    "id": "a006",
+    "slug": "wimbledon-traditions-explained",
+    "category": "feature",
+    "categoryLabel": "Feature",
+    "title": "Strawberries, White and Silence: The Traditions That Define Wimbledon",
+    "subtitle": "From the dress code to the royal box, we explore the customs that make The Championships unlike any other event in sport",
+    "excerpt": "No sporting event clings to its traditions quite like Wimbledon. But where do they come from, and why do they endure in an era of constant change?",
+    "body": "Every June, as the grass courts of SW19 are prepared for another Championships, something remarkable happens. The world's greatest tennis players submit to a set of rules that have remained largely unchanged for more than a century.",
+    "author": {
+      "name": "Oliver Hartley",
+      "role": "Features Writer"
+    },
+    "publishedAt": "2025-07-07T10:00:00Z",
+    "readTime": 10,
+    "featured": false,
+    "imageAlt": "Wimbledon strawberries and cream",
+    "imagePlaceholderColor": "#E2C97E",
+    "tags": ["feature", "traditions", "history", "wimbledon"]
+  }
+]
